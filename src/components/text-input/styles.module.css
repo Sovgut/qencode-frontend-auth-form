@@ -1,0 +1,43 @@
+.component {
+  display: flex;
+  position: relative;
+
+  flex-direction: column;
+
+  width: 100%;
+  row-gap: 16px;
+}
+
+.component .input {
+  color: #060e1e;
+
+  font-family: 'Basis Grotesque Pro';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  width: 100%;
+
+  border: 1.2px solid transparent;
+  border-radius: 6px;
+  padding: 12px;
+
+  outline: none;
+}
+
+.component .input.neutral {
+  border-color: #d3d8dc;
+}
+
+.component .input.danger {
+  border-color: red;
+}
+
+.component .input.isPassword {
+  /* input padding + icon size + space between input and icon */
+  padding-right: calc(12px + 20px + 12px);
+}
+
+.component .input::placeholder {
+  color: #a1abb5;
+}

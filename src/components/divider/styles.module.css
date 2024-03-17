@@ -1,0 +1,40 @@
+.component {
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+
+  height: 16px;
+  width: 100%;
+
+  user-select: none;
+}
+
+.line {
+  position: absolute;
+
+  left: 0;
+  top: calc(50% - 1px);
+  height: 1px;
+  width: 100%;
+
+  background-color: #e3e6e9;
+
+  z-index: 0;
+}
+
+.text {
+  position: relative;
+  text-transform: uppercase;
+
+  background-color: white;
+  color: #bec5cc;
+  padding: 0 4px;
+
+  font-family: 'Basis Grotesque Pro';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  z-index: 1;
+}

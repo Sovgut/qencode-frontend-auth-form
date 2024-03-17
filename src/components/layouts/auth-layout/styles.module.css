@@ -1,0 +1,19 @@
+.component {
+  display: flex;
+
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+
+  padding-top: 180px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

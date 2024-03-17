@@ -1,0 +1,48 @@
+.component {
+  display: flex;
+  width: 100%;
+}
+
+.component.items-start {
+  align-items: flex-start;
+}
+
+.component.items-end {
+  align-items: flex-end;
+}
+
+.components.items-center {
+  align-items: center;
+}
+
+.component.justify-start {
+  justify-content: flex-start;
+}
+
+.component.justify-space-between {
+  justify-content: space-between;
+}
+
+.component.justify-end {
+  justify-content: flex-end;
+}
+
+.component.justify-center {
+  justify-content: center;
+}
+
+.component.direction-row {
+  flex-direction: row;
+}
+
+.component.direction-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.component.direction-column {
+  flex-direction: column;
+}
+
+.component.direction-column-reverse {
+  flex-direction: column-reverse;
+}

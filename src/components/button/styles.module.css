@@ -1,0 +1,58 @@
+.component {
+  border-radius: 6px;
+  border: 1.2px solid transparent;
+
+  font-family: 'Basis Grotesque Pro';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  height: 48px;
+  width: max-content;
+  padding: 0 20px;
+  column-gap: 10px;
+
+  display: inline-flex;
+
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.component.primary {
+  --button-background-color: #316fea;
+
+  &.solid {
+    color: white;
+    background-color: var(--button-background-color);
+    border-color: var(--button-background-color);
+  }
+
+  &.outlined {
+    color: var(--button-background-color);
+    background-color: transparent;
+    border-color: var(--button-background-color);
+  }
+}
+
+.component.neutral {
+  --button-background-color: #d3d8dc;
+
+  &.solid {
+    color: #060e1e;
+    background-color: var(--button-background-color);
+    border-color: var(--button-background-color);
+  }
+
+  &.outlined {
+    color: #060e1e;
+    background-color: transparent;
+    border-color: var(--button-background-color);
+  }
+}
+
+.component.fullWidth {
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+.component {
+  display: inline-block;
+
+  font-family: 'Basis Grotesque Pro';
+}
+
+.component.danger {
+  color: red;
+}
+
+.component.neutral {
+  color: #1a1919;
+}

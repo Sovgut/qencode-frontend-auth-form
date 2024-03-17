@@ -1,0 +1,14 @@
+.component {
+  position: absolute;
+
+  /* padding size + border size */
+  right: calc(12px + 1.2px);
+  top: calc(12px + 1.2px);
+
+  display: flex;
+
+  align-items: center;
+  cursor: pointer;
+
+  user-select: none;
+}
